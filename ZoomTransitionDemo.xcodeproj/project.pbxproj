@@ -11,6 +11,8 @@
 		0D4311452C19D801002B0496 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4311442C19D801002B0496 /* ContentView.swift */; };
 		0D4311472C19D802002B0496 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D4311462C19D802002B0496 /* Assets.xcassets */; };
 		0D43114A2C19D802002B0496 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D4311492C19D802002B0496 /* Preview Assets.xcassets */; };
+		0D4311532C19E23F002B0496 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4311522C19E23F002B0496 /* DetailsView.swift */; };
+		0D4A57F62C1A1A630023D376 /* Lorem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4A57F52C1A1A600023D376 /* Lorem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		0D4311442C19D801002B0496 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0D4311462C19D802002B0496 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D4311492C19D802002B0496 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0D4311522C19E23F002B0496 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		0D4A57F52C1A1A600023D376 /* Lorem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lorem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +55,10 @@
 		0D4311412C19D801002B0496 /* ZoomTransitionDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0D4A57F52C1A1A600023D376 /* Lorem.swift */,
 				0D4311422C19D801002B0496 /* ZoomTransitionDemoApp.swift */,
 				0D4311442C19D801002B0496 /* ContentView.swift */,
+				0D4311522C19E23F002B0496 /* DetailsView.swift */,
 				0D4311462C19D802002B0496 /* Assets.xcassets */,
 				0D4311482C19D802002B0496 /* Preview Content */,
 			);
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D4311452C19D801002B0496 /* ContentView.swift in Sources */,
+				0D4A57F62C1A1A630023D376 /* Lorem.swift in Sources */,
 				0D4311432C19D801002B0496 /* ZoomTransitionDemoApp.swift in Sources */,
+				0D4311532C19E23F002B0496 /* DetailsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,9 +277,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ZoomTransitionDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -286,6 +295,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = test.ZoomTransitionDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -297,9 +307,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ZoomTransitionDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -314,6 +325,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = test.ZoomTransitionDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
